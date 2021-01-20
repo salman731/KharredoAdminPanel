@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/cv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:elevation="8.0dip" android:backgroundTint="#ffecf8f8" app:cardCornerRadius="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/mainLL" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/Product_category_image" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/LL1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/heading_textsize" android:textStyle="bold|italic" android:textColor="@color/colorPrimary" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ID :" />
+                    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/textsize" android:textColor="@android:color/black" android:layout_gravity="center_vertical" android:id="@+id/Products_category_id" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/heading_textsize" android:textStyle="bold|italic" android:textColor="@color/colorPrimary" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Category Name :" />
+                    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/textsize" android:textColor="@android:color/black" android:layout_gravity="center_vertical" android:id="@+id/Products_category_name" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/heading_textsize" android:textStyle="bold|italic" android:textColor="@color/colorPrimary" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Parent Category :" />
+                    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/textsize" android:textColor="@android:color/black" android:layout_gravity="center_vertical" android:id="@+id/Products_category_parent" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fashion Sneaker" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/heading_textsize" android:textStyle="bold|italic" android:textColor="@color/colorPrimary" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Commision % :" />
+                    <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/textsize" android:textColor="@android:color/black" android:layout_gravity="center_vertical" android:id="@+id/Products_commision" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4" android:layout_weight="0.9" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/mainLL">
+            <com.google.android.material.button.MaterialButton android:textSize="10.0dip" android:id="@+id/Products_category_edit_btn" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_margin="5.0dip" android:text="Edit" android:drawableLeft="@drawable/ic_edit" android:layout_weight="0.33" android:backgroundTint="#ff00ff00" />
+            <com.google.android.material.button.MaterialButton android:textSize="10.0dip" android:id="@+id/Products_category_delete_btn" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_margin="5.0dip" android:text="Delete" android:drawableLeft="@drawable/ic_delete" android:layout_weight="0.33" android:backgroundTint="#ffff0000" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

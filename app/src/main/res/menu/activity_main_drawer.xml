@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Reports">
+        <menu>
+            <item android:icon="@drawable/ic_dashboardc" android:id="@+id/nav_Dashboard" android:title="@string/menu_Dashboard" />
+            <item android:icon="@drawable/ic_mail_feed" android:id="@+id/nav_EmailFeed" android:title="@string/menu_EmailFeed" />
+            <item android:icon="@drawable/ic_orders" android:id="@+id/nav_Orders" android:title="@string/menu_Orders" />
+            <item android:icon="@drawable/ic_sales" android:id="@+id/nav_Sales" android:title="@string/menu_Sales" />
+            <item android:icon="@drawable/ic_chat" android:id="@+id/nav_Chat" android:title="@string/menu_Chat" />
+        </menu>
+    </item>
+    <item android:title="Manage">
+        <menu>
+            <item android:icon="@drawable/ic_employees" android:id="@+id/nav_Employees" android:title="@string/menu_Employees" />
+            <item android:icon="@drawable/ic_users" android:id="@+id/nav_Users" android:title="@string/menu_Users" />
+            <item android:icon="@drawable/ic_vendors" android:id="@+id/nav_Vendors" android:title="@string/menu_Vendors" />
+            <item android:icon="@drawable/ic_affiliate_marketers" android:id="@+id/nav_AffliateMarketers" android:title="@string/menu_AffliateMarketers" />
+        </menu>
+    </item>
+    <item android:title="Products">
+        <menu>
+            <item android:icon="@drawable/ic_product_list" android:id="@+id/nav_ProductList" android:title="@string/menu_ProductList" />
+            <item android:icon="@drawable/ic_category" android:id="@+id/nav_Category" android:title="@string/menu_Category" />
+            <item android:icon="@drawable/ic_featured" android:id="@+id/nav_Featured" android:title="@string/menu_Featured" />
+        </menu>
+    </item>
+    <item android:title="Blogs">
+        <menu>
+            <item android:icon="@drawable/blog" android:id="@id/nav_Display_blogs" android:title="@string/menu_Display_Blogs" />
+            <item android:icon="@drawable/blogger" android:id="@id/nav_Insertion_blogs" android:title="Blog Insertion" />
+        </menu>
+    </item>
+    <item android:title="Settings">
+        <menu>
+            <item android:icon="@drawable/banners" android:id="@id/nav_Banners" android:title="@string/menu_Banners" />
+            <item android:icon="@drawable/document" android:id="@id/nav_Page" android:title="Page" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@id/cv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:backgroundTint="#ffecf8f8"
+        android:elevation="8.0dip">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@id/Edit_Title_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10.0dip"
+                android:text="Full Transaction Details"
+                android:textColor="@android:color/black"
+                android:textSize="21.0sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:padding="7.0dip"
+                    android:text="Date : "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/heading_textsize"
+                    android:textStyle="bold|italic" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/Sales_details_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.1"
+                    android:padding="7.0dip"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/textsize" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:padding="7.0dip"
+                    android:text="Transaction :"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/heading_textsize"
+                    android:textStyle="bold|italic" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/Sales_details_Transaction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="7.0"
+                    android:padding="6.0dip"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7.0dip"
+                    android:text="Product :"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/heading_textsize"
+                    android:textStyle="bold|italic" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/Sales_details_product_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.9"
+                    android:padding="6.0dip"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7.0dip"
+                    android:text="Price :"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/heading_textsize"
+                    android:textStyle="bold|italic" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/Sales_details_product_Price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.9"
+                    android:padding="6.0dip"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7.0dip"
+                    android:text="Quantity :"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/heading_textsize"
+                    android:textStyle="bold|italic" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/Sales_details_product_Quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.9"
+                    android:padding="6.0dip"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/textsize" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7.0dip"
+                    android:text="Subtotal :"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/heading_textsize"
+                    android:textStyle="bold|italic" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/Sales_details_product_Subtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.9"
+                    android:padding="6.0dip"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/textsize" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7.0dip"
+                    android:text="Total :"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/heading_textsize"
+                    android:textStyle="bold|italic" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/Sales_details_product_Total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.9"
+                    android:padding="6.0dip"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/textsize" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

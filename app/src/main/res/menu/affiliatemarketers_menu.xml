@@ -1,0 +1,10 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search" android:id="@+id/action_search" android:title="Search" app:actionViewClass="android.widget.SearchView" app:showAsAction="always" />
+    <item android:title="Sort By">
+        <menu>
+            <item  android:id="@+id/AM_byAscending" android:title="Ascending" />
+            <item  android:id="@+id/AM_byDecending" android:title="Descending" />
+        </menu>
+    </item>
+</menu>

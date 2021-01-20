@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#b5daf1f1">
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10.0dip">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="110.0dip"
+            android:layout_margin="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="0.5"
+            app:cardBackgroundColor="#ff8080ff"
+            app:cardElevation="8.0dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10.0dip"
+                    android:text="Rs 19K"
+                    android:textColor="@android:color/white"
+                    android:textSize="20.0sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="13.0dip"
+                    android:text="Total Sales"
+                    android:textColor="#fffffaf0"
+                    android:textSize="15.0sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="110.0dip"
+            android:layout_margin="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="0.5"
+            app:cardBackgroundColor="#ff80ff80"
+            app:cardElevation="8.0dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10.0dip"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="20.0sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="13.0dip"
+                    android:text="Today's New Products"
+                    android:textColor="@android:color/black"
+                    android:textSize="15.0sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/L1"
+        android:orientation="horizontal"
+        android:padding="10.0dip"
+        android:weightSum="1.0">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="110.0dip"
+            android:layout_margin="10.0dip"
+            android:layout_weight="0.5"
+            app:cardBackgroundColor="#ffffff80"
+            app:cardElevation="8.0dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10.0dip"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="20.0sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="13.0dip"
+                    android:text="Today's New Users"
+                    android:textColor="@android:color/black"
+                    android:textSize="15.0sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="110.0dip"
+            android:layout_margin="10.0dip"
+            android:layout_weight="0.5"
+            app:cardBackgroundColor="#ffff8080"
+            app:cardElevation="8.0dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10.0dip"
+                    android:text="Rs. 0"
+                    android:textColor="@android:color/white"
+                    android:textSize="20.0sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="13.0dip"
+                    android:text="Sales Today"
+                    android:textColor="#fffffaf0"
+                    android:textSize="15.0sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/L2"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="20dp">
+    <Spinner
+        android:layout_gravity="right"
+        android:id="@+id/Year_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.0dip"
+        android:entries="@array/Pages_array" />
+</LinearLayout>
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barchart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/L2"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginBottom="20.0dip" />
+</RelativeLayout>

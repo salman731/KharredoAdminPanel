@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Order_Status_array">
+        <item>Shipping Product</item>
+        <item>Processing Order</item>
+        <item>Completed</item>
+    </string-array>
+    <string-array name="Pages_array">
+        <item>about-us.php</item>
+        <item>activate.php</item>
+        <item>add_image.php</item>
+        <item>blog_des.php</item>
+        <item>blogg.php</item>
+        <item>carousel.php</item>
+        <item>cart_add.php</item>
+        <item>cart_delete.php</item>
+        <item>cart_details.php</item>
+        <item>cart_fetch.php</item>
+        <item>cart_total.php</item>
+        <item>cart_update.php</item>
+        <item>cart_view.php</item>
+        <item>category.php</item>
+        <item>ceo_message.php</item>
+        <item>checkout.php</item>
+        <item>connection.php</item>
+        <item>contact-us.php</item>
+        <item>cookie_policy.php</item>
+        <item>customer_sell_product.php</item>
+        <item>date.php</item>
+        <item>dbcon.php</item>
+        <item>googleCallback.php</item>
+        <item>googleConfig.php</item>
+        <item>index-email-insert.php</item>
+        <item>index.php</item>
+        <item>login.php</item>
+        <item>logout.php</item>
+        <item>market.php</item>
+        <item>modal_insertion.php</item>
+        <item>modal_news_feed.php</item>
+        <item>my_fav.php</item>
+        <item>new_password.php</item>
+        <item>orderData.php</item>
+        <item>password_forgot.php</item>
+        <item>password_new.php</item>
+        <item>password_reset.php</item>
+        <item>payment.php</item>
+        <item>paymentSubmit.php</item>
+        <item>phpinfo.php</item>
+        <item>privacy_policy.php</item>
+        <item>product.php</item>
+        <item>product_add.php</item>
+        <item>profile.php</item>
+        <item>profile_edit.php</item>
+        <item>register.php</item>
+        <item>reset.php</item>
+        <item>sales.php</item>
+        <item>search.php</item>
+        <item>seller_account.php</item>
+        <item>signup.php</item>
+        <item>terms_of_services.php</item>
+        <item>track_order.php</item>
+        <item>transaction.php</item>
+        <item>upload.php</item>
+        <item>users_modal.php</item>
+        <item>vendor_info.php</item>
+        <item>vendors_list.php</item>
+        <item>verify.php</item>
+        <item>verifyCheckout.php</item>
+    </string-array>
+</resources>

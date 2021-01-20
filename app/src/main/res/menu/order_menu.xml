@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search" android:id="@+id/action_search" android:title="Search" app:actionViewClass="android.widget.SearchView" app:showAsAction="always" />
+        <item android:title="Sort By">
+            <menu>
+                <item  android:id="@+id/Orders_byOrderNo" android:title="Order No" />
+                <item  android:id="@+id/Orders_byUserId" android:title="User ID" />
+                <item  android:id="@+id/Orders_byDate" android:title="Date" />
+                <item  android:id="@+id/Orders_byAmount" android:title="Amount" />
+                <item  android:id="@+id/Orders_byQuantity" android:title="Quantity" />
+                <item  android:id="@+id/Orders_byOrderStatus" android:title="Order Status" />
+            </menu>
+        </item>
+</menu>

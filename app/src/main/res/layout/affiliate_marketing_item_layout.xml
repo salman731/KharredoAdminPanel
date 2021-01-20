@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:foreground="?android:selectableItemBackground" android:backgroundTint="#ffecf8f8" app:cardCornerRadius="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/affiliate_marketing_image" android:layout_width="70.0dip" android:layout_height="70.0dip" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="@dimen/textsize" android:layout_gravity="center_vertical" android:id="@+id/affiliate_marketing_name" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Name" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

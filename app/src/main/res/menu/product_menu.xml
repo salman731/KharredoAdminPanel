@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search" android:id="@+id/action_search" android:title="Search" app:actionViewClass="android.widget.SearchView" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_more" android:id="@+id/product_new_menu_btn" android:title="Add Product" app:showAsAction="never" />
+    <item android:title="Sort By">
+        <menu>
+            <item  android:id="@+id/Products_byPrice" android:title="Price" />
+            <item  android:id="@+id/Products_byName" android:title="Name" />
+            <item  android:id="@+id/Products_byStatus" android:title="Status" />
+            <item  android:id="@+id/Products_byQuantity" android:title="Quantity" />
+            <item  android:id="@+id/Products_byViews" android:title="View" />
+            <item  android:id="@+id/Products_bySellersCut" android:title="Sellers Cut" />
+            <item  android:id="@+id/Products_byKharredoCut" android:title="Kharredo Cut" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_more" android:id="@+id/category_new_menu_btn" android:title="Add Category" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_search" android:id="@+id/action_search" android:title="Search" app:actionViewClass="android.widget.SearchView" app:showAsAction="always" />
+    <item android:title="Sort By">
+        <menu>
+            <item  android:id="@+id/ProductsCategory_byID" android:title="ID" />
+            <item  android:id="@+id/ProductsCategory_byName" android:title="Category Name" />
+            <item  android:id="@+id/ProductsCategory_byPName" android:title="Parent Category" />
+            <item  android:id="@+id/ProductsCategory_byCommission" android:title="Commission" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@+id/mobile_navigation" app:startDestination="@id/nav_Dashboard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/menu_Dashboard" android:name="com.muqit.KharredoAdminPanel.Fragments.DashboardFragment" android:id="@+id/nav_Dashboard" />
+    <fragment android:label="@string/menu_EmailFeed" android:name="com.muqit.KharredoAdminPanel.Fragments.EmailFeedFragment" android:id="@+id/nav_EmailFeed" />
+    <fragment android:label="@string/menu_Orders" android:name="com.muqit.KharredoAdminPanel.Fragments.OrdersFragment" android:id="@+id/nav_Orders" />
+    <fragment android:label="@string/menu_Sales" android:name="com.muqit.KharredoAdminPanel.Fragments.SalesFragment" android:id="@+id/nav_Sales" />
+    <fragment android:label="@string/menu_Chat" android:name="com.muqit.KharredoAdminPanel.Fragments.ChatFragment" android:id="@+id/nav_Chat" />
+    <fragment android:label="@string/menu_Employees" android:name="com.muqit.KharredoAdminPanel.Fragments.EmployeesFragment" android:id="@+id/nav_Employees" />
+    <fragment android:label="@string/menu_Users" android:name="com.muqit.KharredoAdminPanel.Fragments.UserFragment" android:id="@+id/nav_Users" />
+    <fragment android:label="@string/menu_Vendors" android:name="com.muqit.KharredoAdminPanel.Fragments.VendorsFragment" android:id="@+id/nav_Vendors" />
+    <fragment android:label="@string/menu_AffliateMarketers" android:name="com.muqit.KharredoAdminPanel.Fragments.AffiliateMarketersFragment" android:id="@+id/nav_AffliateMarketers" />
+    <fragment android:label="@string/menu_ProductList" android:name="com.muqit.KharredoAdminPanel.Fragments.ProductListFragment" android:id="@+id/nav_ProductList" />
+    <fragment android:label="@string/menu_Category" android:name="com.muqit.KharredoAdminPanel.Fragments.ProductCategoryFragment" android:id="@+id/nav_Category" />
+    <fragment android:label="@string/menu_Featured" android:name="com.muqit.KharredoAdminPanel.Fragments.ProductFeaturedFragment" android:id="@+id/nav_Featured" />
+    <fragment android:label="@string/menu_Display_Blogs" android:name="com.muqit.KharredoAdminPanel.Fragments.DisplayBlogsFragment" android:id="@+id/nav_Display_blogs" />
+    <fragment android:label="Blog Inseration" android:name="com.muqit.KharredoAdminPanel.Fragments.BlogInsertionFragment" android:id="@+id/nav_Insertion_blogs" />
+    <fragment android:label="@string/menu_Banners" android:name="com.muqit.KharredoAdminPanel.Fragments.BannersFragment" android:id="@+id/nav_Banners" />
+    <fragment android:label="Page" android:name="com.muqit.KharredoAdminPanel.Fragments.PageFragment" android:id="@+id/nav_Page" />
+</navigation>

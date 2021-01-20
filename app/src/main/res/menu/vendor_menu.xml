@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search" android:id="@+id/action_search" android:title="Search" app:actionViewClass="android.widget.SearchView" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_more" android:id="@+id/vendor_new_menu_btn" android:title="Add Vendor" app:showAsAction="never" />
+    <item android:title="Sort By">
+        <menu>
+            <item  android:id="@+id/Vendors_byEmail" android:title="Email" />
+            <item  android:id="@+id/Vendors_byName" android:title="Name" />
+            <item  android:id="@+id/Vendors_byStatus" android:title="Status" />
+            <item  android:id="@+id/Vendors_byDate" android:title="Date" />
+            <item  android:id="@+id/Vendors_byRole" android:title="Role" />
+        </menu>
+    </item>
+</menu>

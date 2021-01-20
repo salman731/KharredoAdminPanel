@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Kharredo Admin Panel</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">AdminEmail@admin.com</string>
+    <string name="nav_header_title">Admin</string>
+    <string name="title_activity_main_admin">MainAdminActivity</string>
+    <string name="menu_AffliateMarketers">Affiliate Marketers</string>
+    <string name="menu_Banners">Banners</string>
+    <string name="menu_Blog_Insertion">Blog Insertion</string>
+    <string name="menu_Category">Category</string>
+    <string name="menu_Chat">Chat</string>
+    <string name="menu_Dashboard">Dashboard</string>
+    <string name="menu_Display_Blogs">Display Blogs</string>
+    <string name="menu_EmailFeed">Email Feed</string>
+    <string name="menu_Employees">Employees</string>
+    <string name="menu_Featured">Featured</string>
+    <string name="menu_Orders">Orders</string>
+    <string name="menu_Pages">Pages</string>
+    <string name="menu_ProductList">Product List</string>
+    <string name="menu_Sales">Sales</string>
+    <string name="menu_Users">Users</string>
+    <string name="menu_Vendors">Vendors</string>
+</resources>
